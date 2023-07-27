@@ -1,0 +1,30 @@
+:root{
+    --primary:crimson;
+    --dark: #1f2937;
+    --darkdark: #111827;
+    --light: #f3f4f6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--dark);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.watch{
+    background-color: var(--darkdark);
+    text-align: center;
+    margin: 10rem auto;
+    border-radius: .5rem;
+    width: 100%;
+    max-width: 360px;
+    padding: 3rem;
+    color: var(--light);
+}
+.watch .time{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
